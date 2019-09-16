@@ -1,0 +1,45 @@
+:root {
+    /* Sørger for at 1 rem er 10px */
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: #5c5c5c;
+}
+h1, h2{
+    color: #db0127;
+    margin-left: 3.6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.topp_{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/stock/finger.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 20rem;
+    background-position-y: -25rem;
+    background-size: 100%;
+    box-sizing: border-box;
+    height: 55vh;
+    z-index: 1;
+    color:#db0127;  
+    justify-content: center;
+}
+
+li{
+    margin-left: 1.5rem;
+    font-size: 1.4rem;
+}
+
+ul{
+    margin-left: 3.6rem;
+}
+.paragraf{
+    margin-left: 3.6rem;
+    margin-bottom: 3.6rem;
+    max-width: 82rem;
+    font-size: 1.4rem;
+}

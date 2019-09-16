@@ -1,0 +1,150 @@
+:root {
+    /* Sørger for at 1 rem er 10px */
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 3.5rem;
+}
+
+h5{
+    font-size: 1.8rem;
+}
+
+h1 h2 h3 h4 h5{
+    color: #db0127;
+}
+p{
+    color: #5c5c5c;
+    font-size: 1.4rem;
+}
+body{
+    background-color: #ece7e4;
+    font-family: frank-new, sans-serif;
+}
+header {
+    background-color: #db0127;
+    height: 6rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2; 
+    box-shadow: 0px 0px 1.5rem rgba(0, 0, 0, 0.3);
+}
+
+header img{
+    height: 6.5rem;
+    position: fixed;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav a{
+    display: block;
+    grid-auto-flow: column;
+    justify-content: start space-between;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+main{
+    margin-top: 5rem;
+
+}
+.midten{
+    max-width: 102.4rem;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+footer{
+    bottom: 0;
+    color: #db0127;
+    box-sizing: border-box;
+    background-color: #ece7e4;
+    max-width: 100%;
+    margin: auto;  
+    position: static;
+}
+
+footer > .myFooter > .kontaktinfo > h2{
+    margin: 0;
+} 
+
+.myFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+footer .kontaktinfo {
+    display: flex;
+    flex-direction: column;
+    width: 34.1rem;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4.5rem;
+}
+
+footer .logoFooter{
+    width: 34.1rem;
+    height: 22.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+footer .SoMe{
+    width: 34.1rem;
+    display: grid;
+    gap: 0rem;
+    grid-gap: 0rem;
+    margin-left: 0;
+    justify-content: center;
+}
+footer a{
+    display: block;
+}
+#facebook img{
+    height: 3.75rem;
+}
+
+#instagram img{
+    height: 3.75rem;
+}
+#twitter img{
+    height: 3.75rem;
+}
+#youtube img{
+    height: 3.75rem;
+}
+
+#flickr img{
+    height: 3.75rem;
+}
+

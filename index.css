@@ -1,0 +1,103 @@
+:root {
+    /* Sørger for at 1 rem er 10px */
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topp_{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/skisser/banner_uten.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: -20rem;
+    background-size: 100%;
+    box-sizing: border-box;
+    height: 55vh;
+    z-index: 1;
+    color:#db0127;  
+    justify-content: center;
+}
+
+.topp_ h1{
+    max-width: 60rem;
+    padding-bottom: 5rem; 
+    margin-left: 3.6rem;
+}
+
+.topp_ h4{
+    margin-left: 3.6rem;
+}
+
+.midten{
+    padding-bottom: 0;
+}
+
+
+.frontpage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.4rem;
+    max-width: 102.4rem;
+    
+}
+.frontpage a{
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 3rem;
+    color: white;
+    background-color: #db0127;
+    font-size: 2rem;
+    text-decoration: none;
+    text-shadow: 0 0.4rem 2rem rgba(0,0, 0, 0.3);
+    border-radius: 1.5rem;
+}
+
+.frontpage a:hover{
+    -webkit-transition-duration: 0.2s;
+    text-decoration: underline;
+    transition-duration: 0.2s;
+    flex: 2;
+    transform: scale(1.02);
+    z-index: 1;
+}
+
+#a-1 {
+    grid-column: 1/ span 2;
+    background-image: url(./images/stock/hender.jpg) ; 
+    background-position-x: 95rem;
+    background-position-y: 25rem;
+    background-size: 95rem;
+    
+}
+#a-4{
+    background-color:  #009032;
+}
+
+#a-6{
+    background-image: url(./images/stock/skolegutt.jpg);
+    background-size: 50rem;
+    background-position: left;
+}
+
+#a-7{
+    grid-column: 2/ span 2;
+    background-image: url(./images/stock/forest.jpg);
+    background-size: 50rem;
+    background-position: top;
+}
+
+#a-8{
+    grid-column: 1/ span 2;
+    background-color:  #009032;
+}
+#a-9{
+    background-image: url(./images/stock/skole.jpg);
+    background-size: 40rem;
+}

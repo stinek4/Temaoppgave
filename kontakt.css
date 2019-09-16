@@ -1,0 +1,68 @@
+:root {
+    /* Sørger for at 1 rem er 10px */
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 3;
+    box-sizing: border-box;
+}
+h1, h2, h5{
+    color: #db0127;
+    margin-left: 3.6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.topp_{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/stock/shoutout.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 20rem;
+    background-position-y: 5rem;
+    background-size: 1100px;
+    box-sizing: border-box;
+    height: 55vh;
+    z-index: 1;
+    color:#db0127;  
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    columns: 2; 
+    grid-template-columns: 1fr 1fr;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+}
+.paragraf{
+    max-width: 51.2rem;
+    font-size: 1.4rem;
+}
+
+.ansatte-stortinget .navn{
+    font-weight: 700;
+}
+
+.ansatte-stortinget .stilling{
+    font-style: italic;
+}
+
+.ansatte-partikontoret .navn{
+    font-weight: 700;
+}
+
+.ansatte-partikontoret .stilling{
+    font-style: italic;
+}
+
+p{
+    margin-left: 3.6rem;
+}
+
+.staff{
+    padding-bottom: 1.5rem;
+
+}
